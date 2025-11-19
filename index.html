@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="#" class="logo">PORT<span>folio</span></a>
+        
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I'm</h3>
+            <h1>BIBEK RIJAL</h1>
+            <h3>Frontend Developer</h3>
+            <p>Passionate about creating beautiful and responsive web experiences with modern technologies</p>
+            
+            <div class="social-icons">
+                <a href="https://www.instagram.com/b_bek.rzl068/"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/Bek068"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/b1bek_rzl068"><i class="fab fa-twitter"></i></a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#" class="btn">Download CV</a>
+                <a href="#contact" class="btn">Let's Talk</a>
+            </div>
+        </div>
+
+        <div class="home-image">
+            <img src="image.jpg" alt="Profile Image">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="image.jpg" alt="About Image">
+        </div>
+        
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>I'm a creative Frontend Developer specializing in building exceptional digital experiences. With expertise in HTML5, CSS3, and JavaScript, I create responsive and interactive websites that combine beautiful design with clean, efficient code. My focus is on crafting user-friendly interfaces and ensuring seamless experiences across all devices.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2>My <span>Skills</span></h2>
+        <div class="skills-container">
+            <!-- Core Skills -->
+            <div class="skills-category">
+                <h3 class="category-title">Technical Skills</h3>
+                <div class="skills-group">
+                    <div class="skill-box">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML5</h3>
+                        <p>Semantic HTML, Accessibility</p>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS3</h3>
+                        <p>Flexbox, Grid, Animations</p>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                        <p>ES6+, DOM, Async/Await</p>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fas fa-code"></i>
+                        <h3>REST APIs</h3>
+                        <p>Fetch, API Integration</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools & Others -->
+            <div class="skills-category">
+                <h3 class="category-title">Tools & Development</h3>
+                <div class="skills-group">
+                    <div class="skill-box">
+                        <i class="fab fa-git-alt"></i>
+                        <h3>Git</h3>
+                        <p>Version Control, GitHub</p>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fab fa-figma"></i>
+                        <h3>Figma</h3>
+                        <p>UI Design, Prototyping</p>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Responsive</h3>
+                        <p>Mobile-First, Cross-Browser</p>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fas fa-window-maximize"></i>
+                        <h3>Web APIs</h3>
+                        <p>DOM, localStorage</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2>Latest <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="no-projects">
+                <i class="fas fa-folder-open"></i>
+                <h3>No Projects Added Yet</h3>
+                <p>Projects will be showcased here once they are added.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact <span>Me</span></h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-box">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>rijal.bebek68@gmail.com</p>
+                </div>
+                <div class="info-box">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p>+977 9765868786</p>
+                </div>
+                <div class="info-box">
+                    <i class="fas fa-location-dot"></i>
+                    <h3>Location</h3>
+                    <p>kathmandu,Nepal</p>
+                </div>
+            </div>
+            
+            <form action="#" class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="text" placeholder="Subject" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Portfolio. All rights reserved.</p>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
